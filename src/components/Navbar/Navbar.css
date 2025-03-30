@@ -1,0 +1,37 @@
+.dark-nav {
+  background: rgb(26, 26, 177);
+  transition: 0.5s;
+}
+.upper {
+  width: 100%;
+  color: white;
+  padding: 4px 0;
+  position: fixed;
+  top: 0%;
+  z-index: 10;
+}
+.canter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 180px;
+}
+
+.upper ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bolte {
+  background: white;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: 0;
+}
