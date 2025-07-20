@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Title from './components/Title/Title'
 import Programs from './components/Programs/Programs'
@@ -12,7 +11,7 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Title4 from './components/Title4/Title4'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import { Container } from 'react-bootstrap'
+import { Container, Navbar } from 'react-bootstrap'
 
 
 const App = () => {
