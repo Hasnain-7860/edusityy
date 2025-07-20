@@ -11,13 +11,15 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Title4 from './components/Title4/Title4'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import { Container, Navbar } from 'react-bootstrap'
+// import { Navbar } from 'react-bootstrap'
+import Navbar from './components/Navbar/Navbar'
+
 
 
 const App = () => {
   return (
     <div>
-      <Navbar/> 
+      <Navbar/>
      <Hero/>
      <Title/>
      <Programs/>
