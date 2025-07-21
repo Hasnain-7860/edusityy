@@ -1,7 +1,7 @@
+import React,{useEffect , useState} from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import { Container } from 'react-bootstrap'
-import { useEffect, useState } from 'react';
 // import { Link } from 'react-scroll'
 
 
