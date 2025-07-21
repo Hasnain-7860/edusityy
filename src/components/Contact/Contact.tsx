@@ -1,4 +1,3 @@
-import React from 'react'
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'

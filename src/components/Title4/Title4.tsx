@@ -1,4 +1,3 @@
-import React from 'react'
 import './Title4.css'
 
 const Title4 = () => {
