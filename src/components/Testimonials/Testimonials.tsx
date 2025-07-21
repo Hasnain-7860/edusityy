@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import './Testimonials.css'
 import next_icon from '../../assets/next-icon.png'
 import back_icon from '../../assets/back-icon.png'
@@ -8,20 +8,24 @@ import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
 const Testimonials = () => {
 
-  const slider = useRef();
+  const slider = useRef<HTMLUListElement>(null);
   let tx =0;
 
 const slideForward =()=>{
   if(tx > -50){
     tx -= 25;
   }
-  slider.current.style.transform =`translateX(${tx}%)`
+  if (slider.current) {
+    slider.current.style.transform = `translateX(${tx}%)`;
+  }
 }
 const slideBackward =()=>{
   if(tx < 0){
     tx+=25;
   }
-  slider.current.style.transform =`translateX(${tx}%)`
+  if (slider.current) {
+    slider.current.style.transform = `translateX(${tx}%)`;
+  }
 
 }
 

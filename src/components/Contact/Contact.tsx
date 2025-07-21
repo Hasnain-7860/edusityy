@@ -10,7 +10,7 @@ import { useState } from 'react'
 const Contact = () => {
     const [result, setResult] = useState("");
 
-    const onSubmit = async (event) => {
+    const onSubmit = async (event:any) => {
       event.preventDefault();
       setResult("Sending....");
       const formData = new FormData(event.target);
@@ -58,7 +58,7 @@ const Contact = () => {
                     <input type=" text" name='Phone'  placeholder='Enter your mobaile number'
                     required/>
                     <label>write your message here</label>
-                    <textarea name="message" rows="6" placeholder='Enter your message' required></textarea> <br />
+                    <textarea name="message" rows={6} placeholder='Enter your message' required></textarea> <br />
                     <button type='submit' className='boltt'>Submit Now <img src={white_arrow} alt="" /></button>
             </form>
             <span>{result}</span>
