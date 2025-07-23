@@ -36,3 +36,14 @@
     width: 20px;
     margin-left: 10px;
     }
+
+    @media (max-width:900px){
+        .gallery{
+            align-items: center;
+        }
+        .campos{
+            width: 95%;
+             margin: 10px auto;
+        }
+
+    }
