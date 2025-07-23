@@ -1,6 +1,8 @@
 import {useEffect , useState} from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import { RxHamburgerMenu } from "react-icons/rx";
+
 // import { Container } from 'react-bootstrap'
 // import { Link } from 'react-scroll'
 
@@ -32,6 +34,7 @@ window.scrollY > 50 ? setSticky(true) : setSticky(false);
             <li><a href="#testimonial">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul> 
+        <div className="hamburger"><RxHamburgerMenu /></div>
         </div>
         
 </nav>

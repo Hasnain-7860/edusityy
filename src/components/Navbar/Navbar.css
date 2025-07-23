@@ -10,6 +10,9 @@
   top: 0%;
   z-index: 10;
 }
+.hamburger{
+  display: none;
+}
 .canter {
   display: flex;
   align-items: center;
@@ -19,12 +22,18 @@
   width: 180px;
 }
 
-.upper ul li {
+.upper ul li  {
   display: inline-block;
   list-style: none;
   margin: 5px 20px;
   font-size: 16px;
   cursor: pointer;
+  color: white;
+}
+.upper ul li a{
+  color: white;
+  text-decoration: none;
+  
 }
 .bolte {
   background: white;
@@ -34,4 +43,13 @@
   border-radius: 35px;
   cursor: pointer;
   outline: 0;
+}
+
+@media (max-width:800px){
+  .canter ul{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
 }
